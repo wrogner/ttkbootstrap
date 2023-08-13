@@ -4,6 +4,8 @@ Based on "[Python Tkinter GUI Design Using ttkbootstrap - Complete Course](https
 
 For documentation on ttkbootstrap go [here](https://ttkbootstrap.readthedocs.io/en/latest/).
 
+A list of themes can be found [here](https://ttkbootstrap.readthedocs.io/en/latest/themes/)
+
 Requirements:
 
 - Tkinter

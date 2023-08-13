@@ -14,10 +14,10 @@ from ttkbootstrap.constants import *
 
 app = tbs.Window()
 
-btn_1 = tbs.Button(app, text="Button 1", bootstyle=SUCCESS)
-btn_1.pack(side=LEFT, padx=5, pady=10)
+button_1 = tbs.Button(app, text="Button 1", bootstyle=SUCCESS)
+button_1.pack(side=LEFT, padx=5, pady=10)
 
-btn_2 = tbs.Button(app, text="Button 2", bootstyle=(INFO, OUTLINE))
-btn_2.pack(side=LEFT, padx=5, pady=10)
+button_2 = tbs.Button(app, text="Button 2", bootstyle=(INFO, OUTLINE))
+button_2.pack(side=LEFT, padx=5, pady=10)
 
 app.mainloop()
