@@ -25,6 +25,12 @@ def checker():
     else:
         label_1.config(text="Check the checkbutton")
 
+# this function prints a StringVar
+def test():
+    print("in test")
+    if var_5a.get():
+        print(var_5a.get())
+
 # label
 label_1 = tk.Label(text="Click the checkbutton below", font=(".AppleSystemUIFont", 32))
 label_1.pack(pady=(40, 10))     # 40 from top, 10 below
@@ -56,8 +62,13 @@ my_check_4.pack(pady=10)
 
 # square toggle button
 var_5 = tk.IntVar()
+var_5a = tk.StringVar()
+
 my_check_5 = tbs.Checkbutton(bootstyle="primary, square-toggle", text="Square toggle",
-                             variable=var_5, onvalue=1, offvalue=0)
+                             variable=var_5, onvalue=1, offvalue=0, command=test)
 my_check_5.pack(pady=10)
+
+var_5a.set("value")
+
 
 app.mainloop()
