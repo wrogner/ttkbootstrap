@@ -32,7 +32,7 @@ def test():
         print(var_5a.get())
 
 # label
-label_1 = tk.Label(text="Click the checkbutton below", font=(".AppleSystemUIFont", 32))
+label_1 = tbs.Label(text="Click the checkbutton below", font=(".AppleSystemUIFont", 32))
 label_1.pack(pady=(40, 10))     # 40 from top, 10 below
 
 # checkbutton
