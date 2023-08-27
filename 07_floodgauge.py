@@ -16,7 +16,7 @@ from ttkbootstrap.constants import *
 app = tbs.Window(themename="cosmo")
 app.title("TTK Bootstrap!")
 app.iconbitmap("img/favicon.ico")
-app.geometry("500x550")
+app.geometry("500x450")
 
 def starter():
     gauge_1.start()
@@ -28,8 +28,9 @@ def incrementer():
     gauge_1.step(10)
     label_1.config(text=f"Position: {gauge_1.variable.get()}")
 
-gauge_1 = tbs.Floodgauge(bootstyle="success", font=(".AppleSystemUIFont", 18),
+gauge_1 = tbs.Floodgauge(bootstyle="default", font=(".AppleSystemUIFont", 18),
                          mask="Pos: {}%", maximum=100, value=0,
+                         # orient="vertical" # fill bottom up
                          orient="horizontal",
                          mode="determinate")
 gauge_1.pack(pady=50, fill=X, padx=30)
