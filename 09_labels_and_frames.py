@@ -31,6 +31,7 @@ entry_1.pack(pady=20, padx=20)
 button_1 = tbs.Button(frame_1, text="CLICK ME!", bootstyle="outline", command=button_clicked)
 button_1.pack(pady=20, padx=20)
 
+# TODO: label justification fails
 label_1 = tbs.Label(app, text="Hello there!", font=(".AppleSystemUIFont", 18), bootstyle="dark")
 label_1.pack(pady=20)
 
