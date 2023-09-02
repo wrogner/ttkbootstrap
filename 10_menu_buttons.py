@@ -33,7 +33,7 @@ menu_1 = tbs.Menu(menu_button_1)
 # items in menus
 item_var = tbs.StringVar()
 for x in ["primary", "secondary", "success", "danger", "info", "outline primary", "outline secondary"]:
-    menu_1.add_radiobutton(label=x, variable=item_var, command=lambda x= x: stuff(x))
+    menu_1.add_radiobutton(label=x, variable=item_var, command=lambda x=x: stuff(x))
 
 # associate menu with menu button
 menu_button_1['menu'] = menu_1
