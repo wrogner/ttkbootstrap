@@ -38,6 +38,7 @@ label_2 = tbs.Label(master=frame_2, text="This is Tab 2", font=(".AppleSystemUIF
 label_2.pack(pady=20)
 
 # add frames to notebook
+# INFO: selecting frame 1 requires mouse over to refresh view
 notebook_1.add(frame_1, text="Tab One")
 notebook_1.add(frame_2, text="Tab Two")
 
