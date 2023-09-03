@@ -19,7 +19,7 @@ app.title("TTK Bootstrap!")
 app.iconbitmap("img/favicon.ico")
 app.geometry("500x550")
 
-global counter
+# global counter
 counter = 20
 
 def clicker():
